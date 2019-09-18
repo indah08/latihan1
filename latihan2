@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+int x;
+int y;
+int z;
+
+cout<<"Masukkan Nilai A=";
+cin>> x;
+cout<<"Masukkan Nilai B=";
+cin>> y;
+cout<<"Masukkan Nilai C=";
+cin>> z;
+
+cout<<"\nHasil darim masusukkan adalah :"<<endl<<endl;
+cout<<" A or B ="<<(X||y)<<endl;
+cout<<" A or C ="<<(x||z)<<endl;
+cout<<"f1=(A or B) AND (A or C) ="<<((x||y)&&(x||))<<endl;
+
+return 0;
+}
